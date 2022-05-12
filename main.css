@@ -32,8 +32,7 @@ body {
   padding: 10px;
 }
 .design .content .paragraph {
-  padding: 20px;
-  padding-top: 0;
+  padding: 5px 20px;
 }
 .design .content .img img:hover,
 .design .content .paragraph h3:hover,

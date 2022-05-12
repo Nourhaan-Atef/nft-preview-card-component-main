@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.design {
+  margin: auto;
+  background: hsl(216, 50%, 16%);
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  margin-top: 7%;
+}
+
+.design .content {
+  flex-direction: column;
+}
+
+.design .content .img img {
+  width: 280px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.design .content .paragraph {
+  padding: 20px;
+  padding-top: 0;
+}
+.design .content .img img:hover,
+.design .content .paragraph h3:hover,
+.design .content .footer .content p span:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.design .content .paragraph h3 {
+  margin: 5px 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 600;
+}
+.design .content .paragraph p {
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+.design .content .paragraph div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: hsl(0, 0%, 100%);
+}
+.design .content .paragraph div span {
+  margin-left: 5px;
+}
+
+.design .content .paragraph div .first span {
+  color: hsl(178, 100%, 50%);
+}
+
+.design .content .paragraph div .secand span {
+  color: hsl(215, 51%, 70%);
+}
+hr {
+  width: 85%;
+  height: 0.5px;
+  border: none;
+  background: hsl(215, 51%, 70%);
+}
+.design .content .footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.design .content .footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 5px 0;
+}
+.design .content .footer .content img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+.design .content .footer .content p {
+  margin: 5px;
+}
+.design .content .footer .content p {
+  color: hsl(215, 51%, 70%);
+}
+.design .content .footer .content p span {
+  color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 700px) {
+  .design {
+    margin-top: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .design {
+    margin-top: 25%;
+  }
+}

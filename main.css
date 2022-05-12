@@ -7,7 +7,10 @@ body {
   background: hsl(217, 54%, 11%);
   font-family: "Outfit", sans-serif;
 }
-
+h1 {
+  text-align: center;
+  color: #fff;
+}
 .flex-center {
   display: flex;
   align-items: center;

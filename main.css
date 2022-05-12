@@ -7,7 +7,7 @@ body {
   background: hsl(217, 54%, 11%);
   font-family: "Outfit", sans-serif;
 }
-h2 {
+h1 {
   text-align: center;
   color: #fff;
   margin: 50px;
@@ -38,16 +38,16 @@ h2 {
   padding: 5px 20px;
 }
 .design .content .img img:hover,
-.design .content .paragraph h3:hover,
+.design .content .paragraph h2:hover,
 .design .content .footer .content p span:hover {
   cursor: pointer;
   color: hsl(178, 100%, 50%);
 }
 
-.design .content .paragraph h3 {
+.design .content .paragraph h2 {
   margin: 5px 0;
   color: hsl(0, 0%, 100%);
-  font-size: 600;
+  font-size: 400;
 }
 .design .content .paragraph p {
   font-weight: 300;
